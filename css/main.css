@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    background: #333;
+    padding: 10px;
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+::-webkit-scrollbar-track {
+    border: 1px solid navy;
+}
+
+::-webkit-scrollbar-thumb {
+    background: navy;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #062a8b;  
+}
+
+.timestamp {
+    font-size: 10px;
+    }
+
+#name {
+    width: 100px;
+}
+
+#message {
+    width: 300px;
+}
+
+.chats {
+    color: whitesmoke;
+    overflow-y: auto;
+    height: 500px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.input {
+    margin-top: 10px;
+}
